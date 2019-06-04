@@ -6,6 +6,5 @@ This is a guide for Principal Investigators, Program Directors, and Administrato
 Remember the goal is to help students succeed and graduate!
 
 
-#Contributor
-
+**Contributor**
 Lorenzo Ramirez, PhD
