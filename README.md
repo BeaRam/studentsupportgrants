@@ -14,12 +14,12 @@ What are the resources available within this repo?
 1. An **Excel Budget Template**: assists in tracking budgetary expenses and aligning them with their respective grant objectives.
 
 2. **Attendance Tracker Reporter (R)**: 
-              - Takes a data frame where each row represents an individual visitor (attendee) that came to our Program's                      physical Center, as well as the reason(s) for their visit.
-             
-              - The code serves to:
-                      • Read in a csv file containing one's attendance data.
-                      • Run a function that takes the data frame and for every reason, returns a data table by month & year 
-                      • Demonstrate how to insert your 'visit reasons' to analyze your respective data
+     Takes a data frame where each row represents an individual visitor (attendee) that came to our Program's                      physical Center, as well as the reason(s) for their visit.
+              
+     The code serves to:
+              • Read in a csv file containing one's attendance data.
+              • Run a function that takes the data frame and for every reason, returns a data table by month & year 
+              • Demonstrate how to insert your 'visit reasons' to analyze your respective data
               
               
 Frequently Asked Questions (FAQ) 
