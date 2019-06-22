@@ -38,8 +38,8 @@ barplot(Month_Table, main = "Visitors by Month & Year", legend =
 
 
 ## Takes the Reasons for Visiting & Reports them Monthly by year
-attendance_summary <- function(ReasonName, FUN = sum) {
-    tapply(attendance2[, ReasonName], attendance2[,1:2], sum)
+attendance_summary <- function(DatFRAME, ReasonName, FUN = sum) {
+        tapply(DatFRAME[, ReasonName], DatFRAME[,1:2], sum)
 }
 
 ## Character Vector detailing the 'reasons' (i.e. column names) of attendance table
@@ -48,7 +48,7 @@ reasons <- c("Advising", "Hang.Out", "Food", "Printing", "Supplies", "Studying",
 ## Loops through each reason passed and runs the attendancesummary function to output a table per reason
 for(i in 1:length(reasons)) {
     RR <- reasons[[i]]
-    ADSum <- attendance_summary(RR)
+    ADSum <- attendance_summary(DatFRAME, RR)
     print(reasons[[i]])
     print(ADSum)  
 }
